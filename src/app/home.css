@@ -1,0 +1,17 @@
+.bg_a {
+  background-color: antiquewhite;
+}
+
+.bg_b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: rgb(60, 53, 43);
+  color: aliceblue;
+
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

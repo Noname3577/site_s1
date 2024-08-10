@@ -1,0 +1,54 @@
+.content_a {
+  width: 100%;
+  height: 150vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "ap_a ap_b"
+    "ap_c ap_c";
+}
+
+.ap_a {
+  grid-area: ap_a;
+
+  h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1001;
+  }
+}
+
+.ap_b {
+  grid-area: ap_b;
+
+  h1 {
+    font-size: 23px;
+    margin-top: 75px;
+
+    b {
+      font-size: 30px;
+    }
+  }
+}
+
+.ap_c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: ap_c;
+  width: 98.8vw;
+  background-image: url("/img/no5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ap_d {
+  grid-area: ap_d;
+}
